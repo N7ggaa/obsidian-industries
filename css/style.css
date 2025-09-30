@@ -1,0 +1,50 @@
+/* Custom Styles for Obsidian Industries */
+
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+/* Helper class for glowing text effect */
+.glowing-text {
+    text-shadow: 0 0 5px #ff7f00, 0 0 10px #ff7f00, 0 0 15px #ff7f00, 0 0 20px #ff7f00;
+}
+
+/* Topographic background style */
+.topographic-bg {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ff7f00' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v-1zm-7 4h1v4h-1v-4zm-7 0h1v4h-1v-4zm-7 0h1v4h-1v-4zm-7 0h1v4h-1v-4zm-7 0h1v4h-1v-4zm-7 0h1v4h-1v-4zm-7 0h1v4h-1v-4zM20 99h1v4h-1v-4zM9 99h1v4h-1v-4zM0 95h4v1h-4v-1zM0 88h1v4h-1v-4zM0 74h1v4h-1v-4zM0 60h1v4h-1v-4zM0 46h1v4h-1v-4zM0 32h1v4h-1v-4zM0 18h1v4h-1v-4zM0 4h1v4h-1v-4z'/%3E%3Cpath d='M4 0h1v100h-1V0zM18 0h1v100h-1V0zM32 0h1v100h-1V0zM46 0h1v100h-1V0zM60 0h1v100h-1V0zM74 0h1v100h-1V0zM88 0h1v100h-1V0z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Circular logo */
+.logo {
+    border-radius: 50%;
+}
+
+/* Custom button for "See Active Projects" */
+.btn-active-projects {
+    background-color: #000;
+    color: #ff7f00; /* Orange text */
+    border: 1px solid #ff7f00;
+    transition: all 0.3s ease;
+}
+
+.btn-active-projects:hover {
+    box-shadow: 0 0 10px #ff7f00, 0 0 20px #ff7f00; /* Glowing effect on hover */
+    color: #fff;
+}
+
+/* Custom blue button for Discord */
+.btn-discord {
+    background-color: #5865F2; /* Discord blue */
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.btn-discord:hover {
+    background-color: #4652c5; /* Darker blue on hover */
+}
